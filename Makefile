@@ -1,8 +1,8 @@
 run: RunCollatz.py RunCollatz.in
-	python RunCollatz.py < RunCollatz.in > RunCollatz.out 
+	python3 RunCollatz.py < RunCollatz.in > RunCollatz.out 
 
 test: TestCollatz.py 
-	python TestCollatz.py
+	python3 TestCollatz.py
 
 clean: 
 	rm *.pyc *~

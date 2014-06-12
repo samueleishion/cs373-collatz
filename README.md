@@ -8,5 +8,6 @@ __Time log__
 |:------|:------:|
 | Adding issues | 20mins |
 | Setting up base files | 10mins | 
-| __Total__: | 30mins | 
+| Added more test cases | 30mins | 
+| __Total__: | 1hr | 
 
