@@ -1,4 +1,12 @@
-cs373-collatz
-=============
+# CS373 - Project 1 : Collatz
 
-Project 1 for CS373 class
+Projected time: 8hrs. 
+
+__Time log__
+
+| Task | Time |
+|:------|:------:|
+| Adding issues | 20mins |
+| Setting up base files | 10mins | 
+| __Total__: | 30mins | 
+
