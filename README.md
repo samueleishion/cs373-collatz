@@ -11,6 +11,6 @@ __Time log__
 | Added more test cases | 30mins | 
 | Implemented simplest solution | 10mins | 
 | Checking conditions on simplest solutions | 5mins | 
-| Debugging to get it to pass | 65mins | 
-| __Total__: | 2hr 20mins | 
+| Debugging to get it to pass | 125mins | 
+| __Total__: | 3hr 20mins | 
 

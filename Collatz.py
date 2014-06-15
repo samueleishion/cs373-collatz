@@ -47,7 +47,8 @@ def collatz_eval (i, j) :
     else: 
         low,high = j,i 
 
-    m = int(high/2) 
+    # checking for the b<m rule 
+    m = high//2 
     if(low<m):
         return collatz_eval(m,high) 
 
@@ -55,12 +56,12 @@ def collatz_eval (i, j) :
         steps = 1
         while(k>1): 
             if(k%2==0): 
-                k = int(k/2) 
+                k = k//2 
+                steps += 1
             else: 
                 # taking two steps if odd 
                 k = k+(k>>1)+1 
-                steps += 1
-            steps += 1 
+                steps += 2 
         if(steps>out): 
             out = steps
 
