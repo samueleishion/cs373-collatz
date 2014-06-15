@@ -33,6 +33,14 @@ def collatz_eval (i, j) :
     return the max cycle length in the range [i, j]
     """
 
+    # checking argument validity 
+    assert type(i) is int 
+    assert type(j) is int 
+
+    # checking pre-conditions 
+    assert i>=1 
+    assert i<=j 
+
     # my code 
     out = 0 
 
@@ -46,6 +54,12 @@ def collatz_eval (i, j) :
             steps += 1 
         if(steps>out): 
             out = steps
+
+    # checking post conditions 
+    assert type(out) is int 
+
+    # checking return conditions 
+    assert out>=1 
 
     return out
 

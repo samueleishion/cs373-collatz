@@ -10,5 +10,6 @@ __Time log__
 | Setting up base files | 10mins | 
 | Added more test cases | 30mins | 
 | Implemented simplest solution | 10mins | 
+| Checking conditions on simplest solutions | 5mins | 
 | __Total__: | 1hr 10mins | 
 
