@@ -13,5 +13,9 @@ check: RunCollatz.py ../collatz-tests/kevinwhe-RunCollatz.in ../collatz-tests/ke
 	diff ../collatz-tests/kevinwhe-RunCollatz.out test.out 
 	rm test.out 
 
+create: TestMaker.py 
+	python3 TestMaker.py > samuelei-RunCollatz.in 
+	python3 RunCollatz.py < samuelei-RunCollatz.in > samuelei-RunCollatz.out 
+
 clean: 
 	rm *.pyc *~

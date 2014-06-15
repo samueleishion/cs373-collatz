@@ -12,5 +12,6 @@ __Time log__
 | Implemented simplest solution | 10mins | 
 | Checking conditions on simplest solutions | 5mins | 
 | Debugging to get it to pass | 125mins | 
-| __Total__: | 3hr 20mins | 
+| Created 1000 random tests | 60mins | 
+| __Total__: | 4hrs 20mins | 
 
