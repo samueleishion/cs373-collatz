@@ -8,5 +8,10 @@ test: TestCollatz.py
 sphere: SphereCollatz.py 
 	python3 SphereCollatz.py < RunCollatz.in 
 
+check: RunCollatz.py ../collatz-tests/kevinwhe-RunCollatz.in ../collatz-tests/kevinwhe-RunCollatz.out 
+	python3 RunCollatz.py < ../collatz-tests/kevinwhe-RunCollatz.in > test.out 
+	diff ../collatz-tests/kevinwhe-RunCollatz.out test.out 
+	rm test.out 
+
 clean: 
 	rm *.pyc *~
