@@ -3,7 +3,10 @@ run: RunCollatz.py RunCollatz.in
 	diff RunCollatz.sample.out RunCollatz.out 
 
 test: TestCollatz.py 
-	python3 TestCollatz.py
+	python3 TestCollatz.py 
+
+sphere: SphereCollatz.py 
+	python3 SphereCollatz.py < RunCollatz.in 
 
 clean: 
 	rm *.pyc *~
