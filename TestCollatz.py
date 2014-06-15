@@ -148,10 +148,10 @@ class TestCollatz (TestCase) :
         self.assertEqual(w.getvalue(), "1 2 2\n9 10 20\n") 
 
     def test_solve_2 (self) : 
-        r = StringIO("3 4\n1 1\n") 
+        r = StringIO("3000 4000\n1 1\n") 
         w = StringIO() 
         collatz_solve(r, w) 
-        self.assertEqual(w.getvalue(), "3 4 8\n1 1 1\n") 
+        self.assertEqual(w.getvalue(), "3000 4000 238\n1 1 1\n") 
 
     def test_solve_3 (self) : 
         r = StringIO("9 10\n1 2\n") 

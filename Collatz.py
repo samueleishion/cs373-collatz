@@ -39,12 +39,15 @@ def collatz_eval (i, j) :
 
     # checking pre-conditions 
     assert i>=1 
-    assert i<=j 
 
     # my code 
     out = 0 
+    if(i<j):
+        low,high = i,j 
+    else: 
+        low,high = j,i 
 
-    for k in range(i,j+1):
+    for k in range(low,high+1):
         steps = 1
         while(k>1): 
             if(k%2==0): 
@@ -59,7 +62,7 @@ def collatz_eval (i, j) :
     assert type(out) is int 
 
     # checking return conditions 
-    assert out>=1 
+    assert out>=0 
 
     return out
 
