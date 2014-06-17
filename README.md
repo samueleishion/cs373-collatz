@@ -15,5 +15,6 @@ __Time log__
 | Created 1000 random tests | 60mins | 
 | Output Tests properly | 10mins | 
 | Added simplest cache + Sphere| 20mins | 
-| __Total__: | 4hrs 50mins | 
+| Fixed simplest cache | 10mins |
+| __Total__: | 5hrs | 
 
