@@ -16,5 +16,6 @@ __Time log__
 | Output Tests properly | 10mins | 
 | Added simplest cache + Sphere| 20mins | 
 | Fixed simplest cache | 10mins |
-| __Total__: | 5hrs | 
+| Finalizing project | 20mins | 
+| __Total__: | 5hrs 20mins | 
 
