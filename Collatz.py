@@ -58,7 +58,7 @@ def collatz_eval (i, j) :
         if(cache[k]!=-1): 
             steps = cache[k] 
         else:
-            key = k
+            key = k # storing original key before modifying it #24
             steps = 1
             while(k>1): 
                 if(k%2==0): 
