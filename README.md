@@ -14,5 +14,6 @@ __Time log__
 | Debugging to get it to pass | 125mins | 
 | Created 1000 random tests | 60mins | 
 | Output Tests properly | 10mins | 
-| __Total__: | 4hrs 30mins | 
+| Added simplest cache + Sphere| 20mins | 
+| __Total__: | 4hrs 50mins | 
 
