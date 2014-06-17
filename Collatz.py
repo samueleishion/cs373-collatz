@@ -6,6 +6,8 @@
 # Glenn P. Downing
 # ---------------------------
 
+cache = [-1] * 1000000 
+
 # ------------
 # collatz_read
 # ------------
@@ -54,6 +56,11 @@ def collatz_eval (i, j) :
 
     for k in range(low,high+1):
         steps = 1
+
+        if(cache[k]!=-1): 
+            steps = cache[k] 
+            k=1 
+
         while(k>1): 
             if(k%2==0): 
                 k = k//2 
@@ -62,6 +69,8 @@ def collatz_eval (i, j) :
                 # taking two steps if odd 
                 k = k+(k>>1)+1 
                 steps += 2 
+
+        cache[k] = steps 
         if(steps>out): 
             out = steps
 

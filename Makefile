@@ -19,3 +19,4 @@ create: TestMaker.py
 
 clean: 
 	rm *.pyc *~
+	rm -rf __pycache__ 
