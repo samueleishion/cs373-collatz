@@ -1,0 +1,137 @@
+commit 36cba38996636f91d4503693467af23e3ead889f
+Author: Sam Acuna <samueleishion@gmail.com>
+Date:   Mon Jun 16 23:14:56 2014 -0500
+
+    Added log of commits and updated README
+
+commit 1dd315567d85b56b7cce85fd85ce79336dc10fd7
+Author: Sam Acuna <samueleishion@gmail.com>
+Date:   Mon Jun 16 23:12:00 2014 -0500
+
+    Added coumentation and comments #14
+
+commit 013634740d337f1dca5aa015381f341155ea14a2
+Author: Sam Acuna <samueleishion@gmail.com>
+Date:   Mon Jun 16 22:53:06 2014 -0500
+
+    Updated README
+
+commit 53b5439dc9a833fe775cc967704ecc2ecdcc9969
+Author: Sam Acuna <samueleishion@gmail.com>
+Date:   Mon Jun 16 22:42:00 2014 -0500
+
+    Changed TestCollatz.ot content #23
+
+commit 4f939638d3dfd047cfefc32aae0f8c48fc782362
+Author: Sam Acuna <samueleishion@gmail.com>
+Date:   Mon Jun 16 22:40:57 2014 -0500
+
+    Fixed cache issue #24
+
+commit 71eb0299d3d57bdc18fc3e55916a423fe6c1a80b
+Author: Sam Acuna <samueleishion@gmail.com>
+Date:   Mon Jun 16 22:28:24 2014 -0500
+
+    Updated Readme
+
+commit 0b44337000d1abad3127dd90e8f1f07e31d20fd4
+Author: Sam Acuna <samueleishion@gmail.com>
+Date:   Mon Jun 16 22:26:35 2014 -0500
+
+    Added simplest cache #13
+
+commit 07808078d21bb01ea96925e4bf2507dfdee776c5
+Author: Sam Acuna <samueleishion@gmail.com>
+Date:   Sun Jun 15 15:57:19 2014 -0500
+
+    Ran coverage to get TestCollatz out #12 #22
+
+commit c335b0b2b543bc816c4ed2663178940f80a13b63
+Author: Sam Acuna <samueleishion@gmail.com>
+Date:   Sun Jun 15 13:51:05 2014 -0500
+
+    Updated readme
+
+commit 6529cfd7fc01121df06489e2cc62d87b2ad5efb6
+Author: Sam Acuna <samueleishion@gmail.com>
+Date:   Sun Jun 15 13:50:31 2014 -0500
+
+    Exported tests to add to public tester #12 #21
+
+commit 735ee40ba833e8f63ec57768e3cb5d346d2f0860
+Author: Sam Acuna <samueleishion@gmail.com>
+Date:   Sun Jun 15 13:49:56 2014 -0500
+
+    Created 1000 random tests #11 #20
+
+commit 16dac1d0b815a6a40f446d5b03fab187af2f07d1
+Author: Sam Acuna <samueleishion@gmail.com>
+Date:   Sun Jun 15 11:25:47 2014 -0500
+
+    Performing integer division and combined lines of code to reduce eval time #10 #16
+
+commit 2cd3a39b6f1b22c8142d8351967aa52ca6e0cd4d
+Author: Sam Acuna <samueleishion@gmail.com>
+Date:   Sun Jun 15 11:10:39 2014 -0500
+
+    Added check for two steps and b<m check #16 #17 #19
+
+commit 4a18ae36c81ab42952218c3261dbd5a4b1b25d36
+Author: Sam Acuna <samueleishion@gmail.com>
+Date:   Sun Jun 15 10:49:11 2014 -0500
+
+    Choosing low and high regardless of order #16 #18
+
+commit c54a750f9aac3a8882d24766645465fb86fc23b8
+Author: Sam Acuna <samueleishion@gmail.com>
+Date:   Sun Jun 15 10:19:10 2014 -0500
+
+    Taking two steps pn SphereCollatz.py to check if it passes #17
+
+commit 9e8512506a8a351c814e69bf144618585169377d
+Author: Sam Acuna <samueleishion@gmail.com>
+Date:   Sun Jun 15 08:50:29 2014 -0500
+
+    Checking pre-, post-, argument, and return conditions #9
+
+commit 17fd21f7ac865ca33bb6c10422c30c9a6e03ca26
+Author: Sam Acuna <samueleishion@gmail.com>
+Date:   Sun Jun 15 08:42:40 2014 -0500
+
+    Added diff on run to ensure result
+
+commit cf0df4e6ec149850c4a5320d16ee4bdbc1d58b5e
+Author: Sam Acuna <samueleishion@gmail.com>
+Date:   Wed Jun 11 23:40:54 2014 -0500
+
+    Updated README and commited 5+ times #4
+
+commit fa14abf3e3c490c2e58e776595950e982a3132c7
+Author: Sam Acuna <samueleishion@gmail.com>
+Date:   Wed Jun 11 23:37:58 2014 -0500
+
+    Implemented collatz_eval() #9
+
+commit 8768441ed47e7e493b31e83fbc7d24bffa75e508
+Author: Sam Acuna <samueleishion@gmail.com>
+Date:   Wed Jun 11 22:34:34 2014 -0500
+
+    Added tests #8
+
+commit cd9d4cbe8954a71c13cafb89076bf60b3b5b3f2c
+Author: Sam Acuna <samueleishion@gmail.com>
+Date:   Wed Jun 11 21:23:09 2014 -0500
+
+    Ran and Tested basic files. Modified README, added gitignore and added Makefile #7
+
+commit 38cc0229ec517a5292d469fdc8b9ebd411d75f1a
+Author: Sam Acuna <samueleishion@gmail.com>
+Date:   Wed Jun 11 21:09:52 2014 -0500
+
+    Added basic files #6
+
+commit f2e5a06a7f126da9f35603aab032156d3a0f9282
+Author: Samuel Acuna <samueleishion@gmail.com>
+Date:   Tue Jun 10 18:51:39 2014 -0500
+
+    Initial commit
